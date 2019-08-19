@@ -38,10 +38,12 @@ time2_demo contained this comment:
 #include <cstdlib>
 #include <climits>
 #include <limits>
+#include <cstdint>
 #include <boost/cstdint.hpp>
 #include <boost/type_traits/integral_constant.hpp>
 #include <boost/core/enable_if.hpp>
 #include <boost/integer_traits.hpp>
+#include <ratio>
 
 //
 // We simply cannot include this header on gcc without getting copious warnings of the kind:
